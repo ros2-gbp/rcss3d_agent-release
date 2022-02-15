@@ -21,7 +21,7 @@
 
 #include "rclcpp/node.hpp"
 #include "rcss3d_agent/rcss3d_agent.hpp"
-#include "rcss3d_agent_msgs/msg/beam.hpp"
+#include "rcss3d_agent_msgs/msg/synchronize.hpp"
 
 namespace rcss3d_agent_basic
 {
@@ -33,15 +33,16 @@ public:
   virtual ~Rcss3dAgentBasicNode();
 
 private:
+  rclcpp::Publisher<rcss3d_agent_msgs::msg::Percept>::SharedPtr perceptPub;
+
   std::unique_ptr<rcss3d_agent::Params> params;
   std::unique_ptr<rcss3d_agent::Rcss3dAgent> rcss3dAgent;
-
-  rclcpp::Publisher<rcss3d_agent_msgs::msg::Percept>::SharedPtr perceptPub;
 
   rclcpp::Subscription<rcss3d_agent_msgs::msg::HingeJointVel>::SharedPtr hingeJointSub;
   rclcpp::Subscription<rcss3d_agent_msgs::msg::UniversalJointVel>::SharedPtr universalJointSub;
   rclcpp::Subscription<rcss3d_agent_msgs::msg::Beam>::SharedPtr beamSub;
   rclcpp::Subscription<rcss3d_agent_msgs::msg::Say>::SharedPtr saySub;
+  rclcpp::Subscription<rcss3d_agent_msgs::msg::Synchronize>::SharedPtr synchronizeSub;
 };
 
 }  // namespace rcss3d_agent_basic
