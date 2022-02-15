@@ -40,10 +40,10 @@ std::string createMessage(sexpresso::Sexp sexp, bool wrap = true)
   return msg;
 }
 
-std::string createCreateMessage()
+std::string createCreateMessage(const std::string & model)
 {
   auto sceneSexp = sexpresso::Sexp{"scene"};
-  sceneSexp.addChild("rsg/agent/nao/nao.rsg");
+  sceneSexp.addChild(model);
   return createMessage(sceneSexp);
 }
 
@@ -103,6 +103,11 @@ std::string createUniversalJointVelMessage(const rcss3d_agent_msgs::msg::Univers
   sexp.addChild(std::to_string(j.ax1));
   sexp.addChild(std::to_string(j.ax2));
   return createMessage(sexp);
+}
+
+std::string createSynchronizeMessage()
+{
+  return "(syn)";
 }
 
 }  // namespace sexp_creator

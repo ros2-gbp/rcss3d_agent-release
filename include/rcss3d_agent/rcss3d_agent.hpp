@@ -40,9 +40,9 @@ public:
   // Functions to call to send message
   void sendHingeJointVel(const rcss3d_agent_msgs::msg::HingeJointVel & j);
   void sendUniversalJointVel(const rcss3d_agent_msgs::msg::UniversalJointVel & j);
-  // void sendSynchronize();
   void sendBeam(const rcss3d_agent_msgs::msg::Beam & b);
   void sendSay(const rcss3d_agent_msgs::msg::Say & s);
+  void sendSynchronize();
 
   // Register callback methods
   void registerPerceptCallback(
@@ -55,7 +55,7 @@ private:
 
   void handle(std::string const & msg);
   void logParametersToRclcppDebug(
-    std::string rcss3d_host, int rcss3d_port, std::string team, int unum);
+    std::string model, std::string rcss3d_host, int rcss3d_port, std::string team, int unum);
 
   // Registered Callbacks
   std::vector<std::function<void(const rcss3d_agent_msgs::msg::Percept &)>> callbacksPercept;
@@ -64,8 +64,9 @@ private:
 class Params
 {
 public:
-  Params(std::string rcss3d_host, int rcss3d_port, std::string team, int unum)
-  : rcss3d_host(rcss3d_host), rcss3d_port(rcss3d_port), team(team), unum(unum) {}
+  Params(std::string model, std::string rcss3d_host, int rcss3d_port, std::string team, int unum)
+  : model(model), rcss3d_host(rcss3d_host), rcss3d_port(rcss3d_port), team(team), unum(unum) {}
+  std::string model;
   std::string rcss3d_host;
   int rcss3d_port;
   std::string team;
