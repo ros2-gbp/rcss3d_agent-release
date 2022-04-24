@@ -1,3 +1,29 @@
+## rcss3d_agent (humble) - 0.0.7-1
+
+The packages in the `rcss3d_agent` repository were released into the `humble` distro by running `/home/ijnek/.local/bin/bloom-release -r humble --track humble rcss3d_agent --edit` on `Sun, 24 Apr 2022 09:04:57 -0000`
+
+These packages were released:
+- `rcss3d_agent`
+- `rcss3d_agent_basic`
+- `rcss3d_agent_msgs`
+
+Version of package(s) in repository `rcss3d_agent`:
+
+- upstream repository: https://github.com/ros-sports/rcss3d_agent.git
+- release repository: https://github.com/ros2-gbp/rcss3d_agent-release.git
+- rosdistro version: `0.0.6-2`
+- old version: `0.0.6-2`
+- new version: `0.0.7-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.0`
+- catkin_pkg version: `0.4.24`
+- rosdep version: `0.21.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## rcss3d_agent (galactic) - 0.0.7-1
 
 The packages in the `rcss3d_agent` repository were released into the `galactic` distro by running `/home/ijnek/.local/bin/bloom-release -r galactic --track galactic rcss3d_agent --edit --override-release-repository-url https://github.com/ros2-gbp/rcss3d_agent-release.git` on `Sun, 24 Apr 2022 09:00:21 -0000`
