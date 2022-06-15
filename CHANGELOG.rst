@@ -2,6 +2,9 @@
 Changelog for package rcss3d_agent_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.1.0 (2022-06-15)
+------------------
+
 0.0.7 (2022-04-24)
 ------------------
 * fix phi and theta being swapped around
