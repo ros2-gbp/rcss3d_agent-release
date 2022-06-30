@@ -2,15 +2,12 @@
 Changelog for package rcss3d_agent
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.4.0 (2022-06-30)
+0.2.1 (2022-06-30)
 ------------------
-
-0.3.1 (2022-06-28)
-------------------
-* only the ball was included in the vision msg, make sure goalposts, flags, field lines and players are transmitted too.
+* ensure all vision fields are being parsed correctly
 * Contributors: Kenji Brameld
 
-0.3.0 (2022-06-15)
+0.2.0 (2022-06-15)
 ------------------
 
 0.0.7 (2022-04-24)
