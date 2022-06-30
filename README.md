@@ -1,3 +1,30 @@
+## rcss3d_agent (rolling) - 0.4.0-1
+
+The packages in the `rcss3d_agent` repository were released into the `rolling` distro by running `/home/ijnek/.local/bin/bloom-release --rosdistro rolling rcss3d_agent` on `Thu, 30 Jun 2022 05:10:15 -0000`
+
+These packages were released:
+- `rcss3d_agent`
+- `rcss3d_agent_basic`
+- `rcss3d_agent_msgs`
+- `rcss3d_agent_msgs_to_soccer_interfaces`
+
+Version of package(s) in repository `rcss3d_agent`:
+
+- upstream repository: https://github.com/ros-sports/rcss3d_agent.git
+- release repository: https://github.com/ros2-gbp/rcss3d_agent-release.git
+- rosdistro version: `0.3.0-1`
+- old version: `0.3.0-1`
+- new version: `0.4.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.11.1`
+- catkin_pkg version: `0.5.2`
+- rosdep version: `0.22.1`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## rcss3d_agent (rolling) - 0.3.0-1
 
 The packages in the `rcss3d_agent` repository were released into the `rolling` distro by running `/usr/bin/bloom-release --rosdistro rolling --track rolling rcss3d_agent --override-release-repository-url https://github.com/ros2-gbp/rcss3d_agent-release.git --edit` on `Wed, 15 Jun 2022 02:55:10 -0000`
