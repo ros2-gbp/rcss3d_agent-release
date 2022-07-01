@@ -1,0 +1,57 @@
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.4.1-1jammy) jammy; urgency=high
+
+  * Add player number and team conversion to getRobotArray
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 30 Jun 2022 15:00:00 -0000
+
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.4.0-1jammy) jammy; urgency=high
+
+  * Add rcss3d_agent_msgs_to_soccer_interfaces package
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 29 Jun 2022 15:00:00 -0000
+
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.3.1-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Mon, 27 Jun 2022 15:00:00 -0000
+
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.3.0-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Tue, 14 Jun 2022 15:00:00 -0000
+
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.0.7-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 23 Apr 2022 15:00:00 -0000
+
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.0.6-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 03 Feb 2022 15:00:00 -0000
+
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.0.5-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 02 Feb 2022 15:00:00 -0000
+
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.0.4-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 28 Jan 2022 15:00:00 -0000
+
+ros-rolling-rcss3d-agent-msgs-to-soccer-interfaces (0.0.3-1jammy) jammy; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 27 Jan 2022 15:00:00 -0000
+
+
