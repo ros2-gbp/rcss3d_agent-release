@@ -1,0 +1,63 @@
+ros-iron-rcss3d-agent-msgs (0.4.1-3bullseye) bullseye; urgency=high
+
+  * Fix up comment in Player.msg
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 30 Jun 2022 16:00:00 -0000
+
+ros-iron-rcss3d-agent-msgs (0.4.0-3bullseye) bullseye; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 29 Jun 2022 16:00:00 -0000
+
+ros-iron-rcss3d-agent-msgs (0.3.1-3bullseye) bullseye; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Mon, 27 Jun 2022 16:00:00 -0000
+
+ros-iron-rcss3d-agent-msgs (0.3.0-3bullseye) bullseye; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Tue, 14 Jun 2022 16:00:00 -0000
+
+ros-iron-rcss3d-agent-msgs (0.0.7-3bullseye) bullseye; urgency=high
+
+  * fix phi and theta being swapped around
+  * Update package.xml maintainer
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 23 Apr 2022 16:00:00 -0000
+
+ros-iron-rcss3d-agent-msgs (0.0.6-3bullseye) bullseye; urgency=high
+
+  * add Synchronize message
+  * add effector msg to allow synchronize effector to be used
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 03 Feb 2022 16:00:00 -0000
+
+ros-iron-rcss3d-agent-msgs (0.0.5-3bullseye) bullseye; urgency=high
+
+  * add score left and score right to message received from simulator
+  * add team name to hear msg
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 02 Feb 2022 16:00:00 -0000
+
+ros-iron-rcss3d-agent-msgs (0.0.4-3bullseye) bullseye; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 28 Jan 2022 16:00:00 -0000
+
+ros-iron-rcss3d-agent-msgs (0.0.3-3bullseye) bullseye; urgency=high
+
+  * Implemented all rcss3d_agent_msgs interfaces
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 27 Jan 2022 16:00:00 -0000
+
+
