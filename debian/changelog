@@ -1,0 +1,79 @@
+ros-jazzy-rcss3d-agent (0.4.1-4noble) noble; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 01 Jul 2022 00:00:00 -0000
+
+ros-jazzy-rcss3d-agent (0.4.0-4noble) noble; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 30 Jun 2022 00:00:00 -0000
+
+ros-jazzy-rcss3d-agent (0.3.1-4noble) noble; urgency=high
+
+  * only the ball was included in the vision msg, make sure goalposts, flags, field lines and players are transmitted too.
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Tue, 28 Jun 2022 00:00:00 -0000
+
+ros-jazzy-rcss3d-agent (0.3.0-4noble) noble; urgency=high
+
+
+
+ -- ijnek <kenjibrameld@gmail.com>  Wed, 15 Jun 2022 00:00:00 -0000
+
+ros-jazzy-rcss3d-agent (0.0.7-4noble) noble; urgency=high
+
+  * fix phi and theta being swapped around
+  * Update package.xml maintainer
+  * Contributors: Kenji Brameld, ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Sun, 24 Apr 2022 00:00:00 -0000
+
+ros-jazzy-rcss3d-agent (0.0.6-4noble) noble; urgency=high
+
+  * add missing include for std::optional
+  * add effector msg to allow synchronize effector to be used
+  * Contributors: ijnek, Scott K Logan
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 04 Feb 2022 00:00:00 -0000
+
+ros-jazzy-rcss3d-agent (0.0.5-4noble) noble; urgency=high
+
+  * add score left and score right to message received from simulator
+  * don't rely on the order of items in sexp. Use their path. This prevents buggy code when the sexp is updated on the simulator end in the future.
+  * comunicate that the node has to be restarted
+  * make error msg easier to understand
+  * make sure program can exit when connection to simulator is broken
+  * add a model parameter so differnet types of robots can be loaded
+  * don't allow sending empty say messages
+  * add team name to hear msg
+  * fix bug in gamestate parsing
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Thu, 03 Feb 2022 00:00:00 -0000
+
+ros-jazzy-rcss3d-agent (0.0.4-4noble) noble; urgency=high
+
+  * adapt to new changes in cpplint about using a leading "./" in include statements
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Sat, 29 Jan 2022 00:00:00 -0000
+
+ros-jazzy-rcss3d-agent (0.0.3-4noble) noble; urgency=high
+
+  * follow guidelines for ament library creation
+  * move all non public hpp files into src directory
+  * separate rcss3d_agent_node into separate package
+  * separate JointPos and JointVel for perceptor and effector
+  * add subscriptions for joints, beam and say
+  * large refactor to purify rcss3d_agent to be a layer between rcssserver3d and ros2
+  * update package description
+  * copied files across from https://gitlab.com/ijnek/ros2_rcss3d/-/tree/kenji-rolling
+  * add sexpresso submodule
+  * Contributors: ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 28 Jan 2022 00:00:00 -0000
+
+
