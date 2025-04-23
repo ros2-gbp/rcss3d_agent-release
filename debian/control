@@ -1,0 +1,12 @@
+Source: ros-kilted-rcss3d-agent-msgs-to-soccer-interfaces
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kilted-ament-cmake, ros-kilted-ament-lint-auto <!nocheck>, ros-kilted-ament-lint-common <!nocheck>, ros-kilted-rcss3d-agent-msgs, ros-kilted-soccer-vision-3d-msgs, ros-kilted-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kilted-rcss3d-agent-msgs-to-soccer-interfaces
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kilted-rcss3d-agent-msgs, ros-kilted-soccer-vision-3d-msgs, ros-kilted-ros-workspace
+Description: Library with methods that convert rcss3d_agent_msgs to soccer_interfaces
